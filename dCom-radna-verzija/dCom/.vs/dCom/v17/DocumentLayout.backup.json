@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\connection\\tcpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\tcpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\connection\\functionexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\functionexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\functionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\functionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\dcom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TCPConnection.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\TCPConnection.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\TCPConnection.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\TCPConnection.cs",
+              "RelativeToolTip": "Modbus\\Connection\\TCPConnection.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:42:10.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IConnection.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\IConnection.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\IConnection.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\IConnection.cs",
+              "RelativeToolTip": "Modbus\\Connection\\IConnection.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:42:07.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FunctionExecutor.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\FunctionExecutor.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\FunctionExecutor.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\FunctionExecutor.cs",
+              "RelativeToolTip": "Modbus\\Connection\\FunctionExecutor.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:42:04.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FunctionFactory.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\FunctionFactory.cs",
+              "RelativeDocumentMoniker": "Modbus\\FunctionFactory.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\FunctionFactory.cs",
+              "RelativeToolTip": "Modbus\\FunctionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:41:56.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "dCom\\MainWindow.xaml",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\MainWindow.xaml",
+              "RelativeToolTip": "dCom\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-24T19:38:07.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RtuCfg.txt",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
+              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
+              "RelativeToolTip": "dCom\\RtuCfg.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-24T18:08:53.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

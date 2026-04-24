@@ -1,0 +1,9 @@
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\bin\Debug\Modbus.dll
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\bin\Debug\Modbus.pdb
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\bin\Debug\Common.dll
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\bin\Debug\Common.pdb
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.csproj.AssemblyReference.cache
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.csproj.Up2Date
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.dll
+E:\FAKS\SCADA\PROJEKAT\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.pdb

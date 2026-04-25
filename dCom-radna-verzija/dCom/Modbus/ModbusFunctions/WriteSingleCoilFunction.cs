@@ -26,26 +26,26 @@ namespace Modbus.ModbusFunctions
         {
             ModbusWriteCommandParameters p = (ModbusWriteCommandParameters)CommandParameters;
 
-            byte[] request = new byte[6];
-
-            //Function code 05
-            request[0] = 5;
+            byte[] request = new byte[5];
 
             //Addr
-            request[1] = (byte)(p.OutputAddress >> 8);
-            request[2] = (byte)(p.OutputAddress & 0xFF);
+            request[0] = (byte)(p.OutputAddress >> 8);
+            request[1] = (byte)(p.OutputAddress & 0xFF);
 
             //Value
             if (p.Value == 1)
             {
-                request[3] = 0xFF;
-                request[4] = 0x00;
+                request[2] = 0xFF;
+                request[3] = 0x00;
             }
             else 
             {
+                request[2] = 0x00;
                 request[3] = 0x00;
-                request[4] = 0x00;
             }
+
+            request[4] = 0x00;
+
             return request;
         }
 

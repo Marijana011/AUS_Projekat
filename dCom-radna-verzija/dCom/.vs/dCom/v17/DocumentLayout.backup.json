@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readdiscreteinputsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readdiscreteinputsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readcoilsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readcoilsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\modbusfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\modbusfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readinputregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readinputregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\writesinglecoilfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\writesinglecoilfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\modbus\\functionparameters\\modbuswritecommandparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\modbus\\functionparameters\\modbuswritecommandparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\functionparameters\\modbuswritecommandparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|e:\\faks\\scada\\projekat\\dcom-radna-verzija\\dcom\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -46,7 +70,85 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadHoldingRegistersFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:11:09.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadDiscreteInputsFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:03:40.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModbusFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ModbusFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ModbusFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ModbusFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ModbusFunction.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:03:30.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReadCoilsFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:03:19.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReadInputRegistersFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:03:05.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WriteSingleRegisterFunction.cs",
+              "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwDEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:02:39.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ModbusWriteCommandParameters.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\FunctionParameters\\ModbusWriteCommandParameters.cs",
               "RelativeDocumentMoniker": "Modbus\\FunctionParameters\\ModbusWriteCommandParameters.cs",
@@ -54,25 +156,24 @@
               "RelativeToolTip": "Modbus\\FunctionParameters\\ModbusWriteCommandParameters.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:24:55.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T09:24:55.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "WriteSingleCoilFunction.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
               "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
               "ToolTip": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
               "RelativeToolTip": "Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T09:15:51.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "TCPConnection.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\TCPConnection.cs",
               "RelativeDocumentMoniker": "Modbus\\Connection\\TCPConnection.cs",
@@ -80,12 +181,11 @@
               "RelativeToolTip": "Modbus\\Connection\\TCPConnection.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:42:10.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T19:42:10.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "IConnection.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\IConnection.cs",
               "RelativeDocumentMoniker": "Modbus\\Connection\\IConnection.cs",
@@ -93,12 +193,11 @@
               "RelativeToolTip": "Modbus\\Connection\\IConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:42:07.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T19:42:07.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "FunctionExecutor.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\Connection\\FunctionExecutor.cs",
               "RelativeDocumentMoniker": "Modbus\\Connection\\FunctionExecutor.cs",
@@ -106,12 +205,11 @@
               "RelativeToolTip": "Modbus\\Connection\\FunctionExecutor.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:42:04.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T19:42:04.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FunctionFactory.cs",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\Modbus\\FunctionFactory.cs",
               "RelativeDocumentMoniker": "Modbus\\FunctionFactory.cs",
@@ -119,12 +217,11 @@
               "RelativeToolTip": "Modbus\\FunctionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:41:56.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T19:41:56.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\MainWindow.xaml",
               "RelativeDocumentMoniker": "dCom\\MainWindow.xaml",
@@ -135,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "RtuCfg.txt",
               "DocumentMoniker": "E:\\FAKS\\SCADA\\PROJEKAT\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
               "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
@@ -143,8 +240,7 @@
               "RelativeToolTip": "dCom\\RtuCfg.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-24T18:08:53.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T18:08:53.199Z"
             }
           ]
         }

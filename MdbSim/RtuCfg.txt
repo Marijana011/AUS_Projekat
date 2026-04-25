@@ -1,7 +1,6 @@
 STA 88
 TCP 28678
 
-
 DO_REG  1 1802  0  0      1     0  DO  @V1 #
 DO_REG  1 1805  0  0      1     0  DO  @P1 #
 DO_REG  1 1806  0  0      1     0  DO  @P2 #

@@ -1,5 +1,6 @@
 ﻿using Common;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace ProcessingModule
@@ -56,7 +57,28 @@ namespace ProcessingModule
         /// </summary>
 		private void Acquisition_DoWork()
 		{
-            //TO DO: IMPLEMENT
+            Console.WriteLine("ACQ RUNNING");
+
+            ushort transactionId = 1;
+            Thread.Sleep(3000);
+
+            var items = configuration.GetConfigurationItems();
+
+            while (true)
+            {
+                foreach (var item in items)
+                {
+                    processingManager.ExecuteReadCommand(
+                        item,
+                        transactionId++,
+                        88,
+                        item.StartAddress,
+                        item.NumberOfRegisters
+                    );
+                }
+
+                Thread.Sleep(1000);
+            }
         }
 
         #endregion Private Methods

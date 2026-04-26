@@ -26,25 +26,37 @@ namespace Modbus.ModbusFunctions
         {
             ModbusWriteCommandParameters p = (ModbusWriteCommandParameters)CommandParameters;
 
-            byte[] request = new byte[5];
+            byte[] request = new byte[12];
 
-            //Addr
-            request[0] = (byte)(p.OutputAddress >> 8);
-            request[1] = (byte)(p.OutputAddress & 0xFF);
+            // MBAP HEADER
+            request[0] = (byte)(p.TransactionId >> 8);
+            request[1] = (byte)(p.TransactionId & 0xFF);
 
-            //Value
-            if (p.Value == 1)
-            {
-                request[2] = 0xFF;
-                request[3] = 0x00;
-            }
-            else 
-            {
-                request[2] = 0x00;
-                request[3] = 0x00;
-            }
+            request[2] = 0x00;
+            request[3] = 0x00;
 
             request[4] = 0x00;
+            request[5] = 0x06;
+
+            request[6] = p.UnitId;
+
+            // PDU
+            request[7] = p.FunctionCode;
+
+            request[8] = (byte)(p.OutputAddress >> 8);
+            request[9] = (byte)(p.OutputAddress & 0xFF);
+
+            
+            if (p.Value == 1)
+            {
+                request[10] = 0xFF;
+                request[11] = 0x00;
+            }
+            else
+            {
+                request[10] = 0x00;
+                request[11] = 0x00;
+            }
 
             return request;
         }
@@ -54,12 +66,12 @@ namespace Modbus.ModbusFunctions
         {
             Dictionary<Tuple<PointType, ushort>, ushort> result =new Dictionary<Tuple<PointType, ushort>, ushort>();
 
-            ushort address = (ushort)((response[1] << 8) | response[2]);
+            ushort address = (ushort)((response[8] << 8) | response[9]);
 
-            ushort value = (response[3] == 0xFF) ? (ushort)1 : (ushort)0;
+            ushort value = (response[10] == 0xFF) ? (ushort)1 : (ushort)0;
 
-            result.Add(new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address), value);
-        
+            result[new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address)] = value;
+
             return result;
         }
     }

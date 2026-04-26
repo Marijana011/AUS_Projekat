@@ -26,15 +26,28 @@ namespace Modbus.ModbusFunctions
         {
             ModbusReadCommandParameters p = (ModbusReadCommandParameters)CommandParameters;
 
-            byte[] request = new byte[5];
+            byte[] request = new byte[12];
 
-            request[0] = (byte)(p.StartAddress >> 8);
-            request[1] = (byte)(p.StartAddress & 0xFF);
+            // MBAP HEADER
+            request[0] = (byte)(p.TransactionId >> 8);
+            request[1] = (byte)(p.TransactionId & 0xFF);
 
-            request[2] = (byte)(p.Quantity >> 8);
-            request[3] = (byte)(p.Quantity & 0xFF);
+            request[2] = 0x00;
+            request[3] = 0x00;
 
             request[4] = 0x00;
+            request[5] = 0x06;
+
+            request[6] = p.UnitId;
+
+            // PDU
+            request[7] = p.FunctionCode;
+
+            request[8] = (byte)(p.StartAddress >> 8);
+            request[9] = (byte)(p.StartAddress & 0xFF);
+
+            request[10] = (byte)(p.Quantity >> 8);
+            request[11] = (byte)(p.Quantity & 0xFF);
 
             return request;
         }
@@ -44,17 +57,29 @@ namespace Modbus.ModbusFunctions
         {
             var result = new Dictionary<Tuple<PointType, ushort>, ushort>();
 
-            byte byteCount = response[1];
+            var p = (ModbusReadCommandParameters)CommandParameters;
+
+            ushort startAddress = p.StartAddress;
+            ushort quantity = p.Quantity;
+
+            byte byteCount = response[8];
+
+            int currentBit = 0;
 
             for (int i = 0; i < byteCount; i++)
             {
                 for (int bit = 0; bit < 8; bit++)
                 {
-                    ushort value = (ushort)((response[2 + i] >> bit) & 0x01);
+                    if (currentBit >= quantity)
+                        break;
 
-                    ushort address = (ushort)(i * 8 + bit);
+                    ushort value = (ushort)((response[9 + i] >> bit) & 0x01);
 
-                    result.Add(new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address), value);
+                    ushort address = (ushort)(startAddress + currentBit);
+
+                    result[new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address)] = value;
+
+                    currentBit++;
                 }
             }
 

@@ -26,15 +26,28 @@ namespace Modbus.ModbusFunctions
         {
             ModbusWriteCommandParameters p = (ModbusWriteCommandParameters)CommandParameters;
 
-            byte[] request = new byte[5];
+            byte[] request = new byte[12];
 
-            request[0] = (byte)(p.OutputAddress >> 8);
-            request[1] = (byte)(p.OutputAddress & 0xFF);
+            // MBAP HEADER
+            request[0] = (byte)(p.TransactionId >> 8);
+            request[1] = (byte)(p.TransactionId & 0xFF);
 
-            request[2] = (byte)(p.Value >> 8);
-            request[3] = (byte)(p.Value & 0xFF);
+            request[2] = 0x00; // Protocol ID
+            request[3] = 0x00;
 
             request[4] = 0x00;
+            request[5] = 0x06; // Length
+
+            request[6] = p.UnitId;
+
+            // PDU
+            request[7] = p.FunctionCode;
+
+            request[8] = (byte)(p.OutputAddress >> 8);
+            request[9] = (byte)(p.OutputAddress & 0xFF);
+
+            request[10] = (byte)(p.Value >> 8);
+            request[11] = (byte)(p.Value & 0xFF);
 
             return request;
         }
@@ -44,10 +57,10 @@ namespace Modbus.ModbusFunctions
         {
             var result = new Dictionary<Tuple<PointType, ushort>, ushort>();
 
-            ushort address = (ushort)((response[1] << 8) | response[2]);
-            ushort value = (ushort)((response[3] << 8) | response[4]);
+            ushort address = (ushort)((response[8] << 8) | response[9]);
+            ushort value = (ushort)((response[10] << 8) | response[11]);
 
-            result.Add(new Tuple<PointType, ushort>(PointType.HR_LONG, address), value);
+            result[new Tuple<PointType, ushort>(PointType.HR_LONG, address)] = value;
 
             return result;
         }

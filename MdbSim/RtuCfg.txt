@@ -4,9 +4,6 @@ TCP 28678
 DO_REG  1 1802  0  0      1     0  DO  @V1 #
 DO_REG  1 1805  0  0      1     0  DO  @P1 #
 DO_REG  1 1806  0  0      1     0  DO  @P2 #
-
 DI_REG  1 1800  0  0      1     0  DI  @STOP #
-
 IN_REG  1 800   0  0   4095   800  AI  @Level #
-
 HR_INT  1 2800  0  0   4095     0  AO  @Pump #
